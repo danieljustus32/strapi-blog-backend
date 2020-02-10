@@ -29,8 +29,12 @@
       "required": true
     },
     "category": {
-      "via": "articles",
-      "model": "category"
+      "model": "category",
+      "via": "articles"
+    },
+    "alt": {
+      "type": "string",
+      "required": true
     }
   }
 }

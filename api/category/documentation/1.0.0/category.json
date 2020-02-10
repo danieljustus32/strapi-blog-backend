@@ -534,7 +534,8 @@
                 "title",
                 "content",
                 "image",
-                "published_at"
+                "published_at",
+                "alt"
               ],
               "properties": {
                 "id": {
@@ -553,6 +554,9 @@
                   "type": "string"
                 },
                 "category": {
+                  "type": "string"
+                },
+                "alt": {
                   "type": "string"
                 }
               }
